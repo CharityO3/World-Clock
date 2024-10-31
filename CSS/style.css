@@ -2,6 +2,14 @@ h1{
   text-align: center;
 }
 
+.select-city{
+  display: block;
+  margin: 0 auto;
+}
+
+.city{
+  text-align: center;
+}
 footer{
   text-align: center;
 }
