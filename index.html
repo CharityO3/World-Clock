@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Clock</title>
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div id ="container">
+    <div class ="container">
       <h1>World Clock</h1>
-
-
-
 
       <select class="select-city">
         <option value="">Select a city...</option>
@@ -20,24 +19,23 @@
         <option value="">Paris</option>
         <option value="">Poznan</option>
       </select>
-    </div>
 
-  </header>
+      <div class="city">
+        <div>
+        <h2>Los Angeles &#127482;&#127480;</h2>
+        <div class="date">October 31st 2024</div>
+        </div>
+        <div class="time">07:34:15 <small class="meridiem">AM</small></div>
+      </div>
 
-  <main>
-    <div class="city">
-      <h2>Los Angeles &#127482;&#127480;</h2>
-      <div class="date">October 31st 2024</div>
-      <div class="time">07:34:15 AM</div>
+      <div class="city">
+        <div>
+        <h2>Poznan &#x1F1F5;&#x1F1F1;</h2>
+        <div class="date">October 31st 2024</div>
+        </div>
+        <div class="time">07:34:15 <small class="meridiem">AM</small></div>
+      </div>
     </div>
-    
-    <div class="city">
-      <h2>Poznan &#x1F1F5;&#x1F1F1;</h2>
-      <div class="date">October 31st 2024</div>
-      <div class="time">09:34:15 AM</div>
-    </div>
-    
-  </main>
 
   <footer>
     <p class="code-credit">
