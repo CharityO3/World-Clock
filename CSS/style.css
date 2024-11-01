@@ -1,11 +1,12 @@
 body{
   background-color: #f9f7fe;
-  font-family: "Roboto", serif;
+ 
 }
 
 h1{
   text-align: center;
   font-weight: 900;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 h2{
@@ -31,7 +32,8 @@ select{
 }
 
 .date{
-  opacity: 0.7;
+  opacity: 0.4;
+  
 }
 
 .city{
@@ -40,6 +42,8 @@ select{
   margin: 20px 0;
   padding: 30px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", serif;
+  font-weight: 900;
 }
 
 .city:last-child{
@@ -61,4 +65,5 @@ footer{
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.7);
+  
 }
