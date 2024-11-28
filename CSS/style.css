@@ -33,7 +33,6 @@ select{
 
 .date{
   opacity: 0.4;
-  
 }
 
 .city{
@@ -60,6 +59,7 @@ select{
   vertical-align: middle;
   line-height: 36px;
 }
+
 a{
   color: #885df1;
   text-decoration: none;
@@ -72,6 +72,46 @@ a{
 footer{
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6); 
+}
+
+@media (max-width:576px){
+  body{
+    margin: 0 20px 0 20px;
+  }   
   
+  h2{
+    font-size: 20px;
+  }
+
+  select{
+    font-size: 14px;
+  }
+  
+  h1{
+    font-size: 20px;
+  }
+  
+  footer{
+    font-size: 10px;
+  }
+
+  .time{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .time small{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .container{
+    margin: 100px 87px 50px 0;
+    padding: 42px 22px;
+  }
+
+  .date{
+    font-size: 12px;
+  }
 }
