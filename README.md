@@ -43,4 +43,4 @@ The project has the following structure:
 View hosted App on Netlify: https://world-watch.netlify.app/
 
 ## Author
-Coded by [Charity Orhoridiohwo](https://www.linkedin.com/in/charity-orhoridiohwo-548873150/). Open-sourced on [GitHub](https://github.com/CharityO3/World-Clock) and hosted on [Netlify](https://world-watch.netlify.app/). Contributions are welcome!
+Coded by [Charity Orhoridiohwo](https://www.linkedin.com/in/charityorhoridiohwo). Open-sourced on [GitHub](https://github.com/CharityO3/World-Clock) and hosted on [Netlify](https://world-watch.netlify.app/). Contributions are welcome!
